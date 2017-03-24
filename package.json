@@ -1,0 +1,30 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "A To-Do API written in NodeJs and Express.",
+  "main": "app.js",
+  "scripts": {
+    "lint": "node node_modules/gulp/bin/gulp.js lint",
+    "watch": "node node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royboy5/todo-api.git"
+  },
+  "author": "Roy Eng <roye19@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "getenv": "^0.7.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.1",
+    "require-all": "^2.2.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-util": "^3.0.8"
+  }
+}
